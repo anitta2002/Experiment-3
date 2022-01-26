@@ -19,7 +19,7 @@ class strng{
               return count;
           }
 
-          String rev(){
+          String reverse(){
               String rev="";
               char c;
               int len=s.length();
@@ -41,6 +41,6 @@ class rev{
         char el= sc.nextLine().charAt(0);
         strng ob=new strng(term,el);
         System.out.println(el+" is present "+ob.freq()+" times in string \""+term+"\"");
-        System.out.println("Reverse of the entered string is:"+ob.rev());
+        System.out.println("Reverse of the entered string is:"+ob.reverse());
     }
 }
